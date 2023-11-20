@@ -1,15 +1,20 @@
-import { useState } from "react";
-import "./App.css";
-import { Button } from "react-bootstrap";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import HomePage from "./HomePage/HomePage";
+import AboutMe from "./AboutMe/AboutMe";
+import ProjectPage from "./ProjectPage/ProjectPage";
+import NotFoundPage from "./NotFoundPage/NotFoundPage";
 
 function App() {
-  function handleClick() {
-    console.log("Button clicked");
-  }
   return (
-    <>
-      <Button onClick={handleClick}>hello</Button>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/aboutme" element={<AboutMe />}></Route>
+        <Route path="/projectpage" element={<ProjectPage />}></Route>
+        <Route path="*" element={<NotFoundPage />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
