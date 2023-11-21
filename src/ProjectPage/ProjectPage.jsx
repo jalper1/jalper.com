@@ -4,7 +4,9 @@ function ProjectPage() {
   return (
     <>
       <NavBar />
-      <div className="text">Project Page</div>
+      <div className="project-text">
+        <h1>Project Page</h1>
+      </div>
     </>
   );
 }

@@ -4,7 +4,9 @@ function HomePage() {
   return (
     <>
       <NavBar />
-      <div className="text">Welcome!</div>
+      <div className="welcome-text">
+        <h1>Welcome!</h1>
+      </div>
     </>
   );
 }
