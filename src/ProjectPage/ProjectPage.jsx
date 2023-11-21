@@ -12,7 +12,15 @@ function ProjectPage({ ...props }) {
         <h1>Project Page</h1>
         <Container>
           <Row className="cards">
-            <Col xs={12} sm={6} md={6} lg={6} xl={6}>
+            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+              <ProjectCard
+                title="Test Project"
+                backgroundColor="darkblue"
+                link="https://www.google.com/"
+                description="This is a test project."
+                image={reactPhoto}
+                {...props}
+              />
               <ProjectCard
                 title="Test Project"
                 backgroundColor="darkblue"
@@ -22,19 +30,7 @@ function ProjectPage({ ...props }) {
                 {...props}
               />
             </Col>
-            <Col xs={12} sm={6} md={6} lg={6} xl={6}>
-              <ProjectCard
-                title="Test Project Two"
-                backgroundColor="darkred"
-                link="https://www.google.com/"
-                description="This is a second test project."
-                image={reactPhoto}
-                {...props}
-              />
-            </Col>
-          </Row>
-          <Row className="cards">
-            <Col xs={12} sm={6} md={6} lg={6} xl={6}>
+            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
               <ProjectCard
                 title="Test Project"
                 backgroundColor="darkblue"
@@ -43,13 +39,11 @@ function ProjectPage({ ...props }) {
                 image={reactPhoto}
                 {...props}
               />
-            </Col>
-            <Col xs={12} sm={6} md={6} lg={6} xl={6}>
               <ProjectCard
-                title="Test Project Two"
-                backgroundColor="darkred"
+                title="Test Project"
+                backgroundColor="darkblue"
                 link="https://www.google.com/"
-                description="This is a second test project."
+                description="This is a test project."
                 image={reactPhoto}
                 {...props}
               />
