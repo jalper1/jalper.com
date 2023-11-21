@@ -1,0 +1,29 @@
+.card-container {
+  margin-top: 4.5rem;
+  font-size: 3rem;
+  font-weight: 400;
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6rem;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  transition: transform 0.5s;
+}
+.card-content p {
+  font-size: 1.5rem;
+}
+.card-container:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.card-link {
+  display: contents;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+}

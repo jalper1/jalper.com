@@ -7,7 +7,7 @@
   }
 }
 .text h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .text a:hover {
-  color: #460ff0;
+  color: black;
   transition: 0.3s;
 }
 
