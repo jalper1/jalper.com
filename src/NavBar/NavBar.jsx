@@ -15,6 +15,9 @@ function NavBar() {
           <Nav.Link className="nav-item" href="/projectpage">
             Projects
           </Nav.Link>
+          <Nav.Link className="nav-item" href="/contactpage">
+            Contact
+          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>
