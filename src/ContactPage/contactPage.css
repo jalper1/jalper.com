@@ -6,7 +6,12 @@
     opacity: 1;
   }
 }
-
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
 .contact-text {
   margin-top: 6rem;
   font-size: 3rem;
@@ -18,4 +23,70 @@
 .contact-text h1 {
   font-size: 2rem;
   font-weight: 400;
+}
+.contact-text p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.email-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.email-form .label-email,
+.email-form .label-body {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.email-email {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  width: 20rem;
+}
+.email-body {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  height: 10em;
+  width: 20rem;
+}
+.email-body::placeholder {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+}
+.email-name::placeholder {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+}
+
+.email-body:focus,
+.email-name:focus {
+  border: 0.1rem solid #4fa3d1;
+  box-shadow: 2px 2px 12px black;
+}
+.email-submit {
+  margin-top: 0.5rem;
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.email-submit:hover {
+  background-color: #4fa3d1;
 }
