@@ -6,6 +6,37 @@
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    background-color: #242424 !important;
+    border: none !important;
+    align-items: center !important;
+  }
+  .text {
+    text-align: center;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .text h1 {
+    font-size: 2rem;
+  }
+
+  .text a {
+    font-size: 1.2rem;
+  }
+  .text-image {
+    flex-direction: column !important;
+  }
+}
+.text-image {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
 .text h1 {
   font-size: 3.5rem;
   font-weight: 700;

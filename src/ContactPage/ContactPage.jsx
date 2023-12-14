@@ -8,8 +8,7 @@ function ContactPage() {
       <NavBar />
       <div className="contact-container">
         <div className="contact-text">
-          <h1>Email: alperjordan@gmail.com</h1>
-          <h1>Phone Number: (+1) 781-504-2001</h1>
+          <h1>Contact Me!</h1>
         </div>
       </div>
     </>

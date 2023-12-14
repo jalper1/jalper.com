@@ -19,7 +19,7 @@ function ProjectCard({
           <img
             width={100}
             height={100}
-            className="image"
+            className="card-image"
             src={image}
             alt={`${image}-image`}
           />

@@ -24,8 +24,19 @@
 }
 
 .nav-item:hover {
-  background-color: #1e90ff;
+  background-color: #0c3c6f;
   color: white;
   border-radius: 4rem;
   transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-container {
+    justify-content: center;
+    height: 3rem;
+  }
+
+  .nav-item {
+    font-size: 1rem;
+  }
 }

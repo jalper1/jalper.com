@@ -1,37 +1,42 @@
 import NavBar from "../NavBar/NavBar";
 import "./aboutMe.css";
 import coverPhoto from "../assets/coverPhoto.jpg";
-import resume from "../assets/Jordan Alper-Resume Final.pdf";
+import resume from "../assets/Jordan Alper-Website Resume.pdf";
 
 function AboutMe() {
   return (
     <>
       <NavBar />
       <div className="wrapper">
-        <div className="text">
-          <h1>Jordan Alper</h1>
-          <div className="link-wrapper">
-            <a href="https://www.linkedin.com/in/jordan-alper" target="_blank">
-              LinkedIn
-            </a>
-            <a href="https://jalper1.itch.io/" target="_blank">
-              itch.io
-            </a>
-            <a href="https://github.com/jalper1" target="_blank">
-              GitHub
-            </a>
-            <a href={resume} download>
-              Download Resume
-            </a>
+        <div className="text-image">
+          <img
+            className="image"
+            width={300.8}
+            height={400}
+            src={coverPhoto}
+            alt="profile-pic"
+          />
+          <div className="text">
+            <h1>Jordan Alper</h1>
+            <div className="link-wrapper">
+              <a
+                href="https://www.linkedin.com/in/jordan-alper"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+              <a href="https://jalper1.itch.io/" target="_blank">
+                itch.io
+              </a>
+              <a href="https://github.com/jalper1" target="_blank">
+                GitHub
+              </a>
+              <a href={resume} download>
+                Download Resume
+              </a>
+            </div>
           </div>
         </div>
-        <img
-          className="image"
-          width={300.8}
-          height={400}
-          src={coverPhoto}
-          alt="profile-pic"
-        />
       </div>
       <div className="summary-text">
         <p>
