@@ -6,9 +6,10 @@ function ContactPage() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
+  const [subject, setSubject] = useState("");
 
   function addToSubject() {
-    setName("New Contact Form from " + name);
+    setSubject("New Contact Form from " + name);
   }
 
   return (
@@ -26,14 +27,20 @@ function ContactPage() {
           className="email-form"
           action="mailto:alperjordan@gmail.com"
           method="get"
-          enctype="text/plain"
+          encType="text/plain"
         >
           <label className="label-email">Name:</label>
           <input
+            hidden={true}
             type="text"
             name="subject"
             className="email-email"
             placeholder="Email"
+            value={subject}
+          ></input>
+          <input
+            className="email-email"
+            placeholder="Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
           ></input>
