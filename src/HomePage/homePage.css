@@ -6,15 +6,38 @@
     opacity: 1;
   }
 }
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 body.no-scroll {
   overflow: hidden;
 }
 
-.welcome-page {
-  margin: 0;
-  padding: 0;
-  background-color: green;
+.welcome-page::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../assets/backgroundPhoto.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: -1;
 }
 
 .welcome-container {
@@ -43,8 +66,39 @@ body.no-scroll {
 .welcome-text p {
   font-size: 2rem;
   font-weight: 400;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.welcome-message p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.explore-button {
+  margin-top: 2rem;
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
+.explore-button:hover {
+  background-color: #4fa3d1;
+}
+
+.animated-text-header {
+  margin-bottom: 0;
+}
+.animated-text {
+  animation: fadeInOut 3s infinite;
+  text-shadow: 2px 2px 12px black;
+  border: 1px solid #ffffff; /* Adjust the color as needed */
+  padding: 1rem;
+  border-radius: 2rem;
+}
 @media only screen and (max-width: 600px) {
   .welcome-text {
     font-size: 2rem;
