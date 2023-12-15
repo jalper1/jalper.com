@@ -9,12 +9,8 @@ function ContactPage() {
   const [subject, setSubject] = useState("");
 
   function addToSubject() {
-    setSubject(("New Contact Form from " + name).replace(/\+/g, " "));
+    setSubject("New Contact Form from " + name);
   }
-
-  useEffect(() => {
-    setMessage(message.replace(/\+/g, " "));
-  }, [message]);
 
   return (
     <>
