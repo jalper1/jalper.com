@@ -39,8 +39,8 @@ function HomePage() {
           <h1 className="animated-text">{jobTitle.trim()}</h1>
           <div className="welcome-message">
             <p>
-              Thanks for dropping by! Explore my work history, projects, and
-              contact information.
+              Thank you for visiting! Take a look at my professional background,
+              projects, and ways to get in touch.
             </p>
           </div>
           <button

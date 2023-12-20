@@ -23,7 +23,7 @@ function ContactPage() {
       <div className="contact-container">
         <div className="contact-text">
           <h1>Contact Me!</h1>
-          <p>Email: alperjordan@gmail.com</p>
+          <p>Email: jordanalper22@gmail.com</p>
           <p>
             I'm always open to new ideas or just to chat. Feel free to reach out
             with anything!
@@ -32,7 +32,7 @@ function ContactPage() {
         {visible ? (
           <form
             className="email-form"
-            action="mailto:alperjordan@gmail.com"
+            action="mailto:jordanalper22@gmail.com"
             method="get"
             encType="text/plain"
           >
