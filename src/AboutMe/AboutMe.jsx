@@ -40,11 +40,12 @@ function AboutMe() {
       </div>
       <div className="summary-text">
         <p>
-          As a Computer Science major at the University of Wisconsin-Madison, I
-          am dedicated to exploring the latest technologies and applying them to
-          real-world challenges. Through my coursework I have developed a strong
-          foundation in programming languages, algorithms, data structures, and
-          computer networks.
+          As a Computer Science major with a Game Design Certificate at the
+          University of Wisconsin-Madison, I am dedicated to exploring the
+          latest technologies and applying them to real-world challenges.
+          Through my coursework I have developed a strong foundation in
+          programming languages, algorithms, data structures, and computer
+          networks.
         </p>
         <p>
           During my software development internship at Kotini in London, I

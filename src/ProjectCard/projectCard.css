@@ -25,3 +25,9 @@
   text-decoration: none;
   color: rgba(255, 255, 255, 0.87);
 }
+@media only screen and (max-width: 600px) {
+  .card-container {
+    max-width: 20rem !important;
+    min-height: 20rem !important;
+  }
+}
