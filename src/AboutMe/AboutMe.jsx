@@ -32,7 +32,7 @@ function AboutMe() {
                 GitHub
               </a>
               <a href={resume} download>
-                Download Resume
+                Resume (PDF)
               </a>
             </div>
           </div>
@@ -76,6 +76,9 @@ function AboutMe() {
           I work with.
         </p>
       </div>
+      <div className="skills"></div>
+      <div className="work-experience"></div>
+      <div className="education"></div>
     </>
   );
 }

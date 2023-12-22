@@ -80,7 +80,7 @@ function ContactPage() {
         ) : (
           <form
             className="email-form"
-            action="mailto:alperjordan@gmail.com"
+            action="mailto:jordanalper22@gmail.com"
             method="get"
             encType="text/plain"
           >
