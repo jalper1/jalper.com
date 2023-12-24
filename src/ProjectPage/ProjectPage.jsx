@@ -4,6 +4,7 @@ import "./projectPage.css";
 import photo from "../assets/react.svg";
 import robotPhoto from "../assets/robot.jpg";
 import mansionPhoto from "../assets/mmansion.png";
+import Footer from "../Footer/Footer";
 
 function ProjectPage({ ...props }) {
   return (
@@ -37,6 +38,7 @@ function ProjectPage({ ...props }) {
           />
         </div>
       </div>
+      <Footer />
     </>
   );
 }

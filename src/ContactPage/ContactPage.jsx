@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import NavBar from "../NavBar/NavBar";
 import "./contactPage.css";
+import Footer from "../Footer/Footer";
 
 function ContactPage() {
   const [email, setEmail] = useState("");
@@ -44,6 +45,7 @@ function ContactPage() {
               className="email-email"
               placeholder="Email"
               value={subject}
+              readOnly
             ></input>
             <input
               className="email-email"
@@ -95,6 +97,7 @@ function ContactPage() {
           </form>
         )}
       </div>
+      <Footer />
     </>
   );
 }
