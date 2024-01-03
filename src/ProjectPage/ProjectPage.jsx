@@ -21,7 +21,7 @@ function ProjectPage({ ...props }) {
             {...props}
           />
           <ProjectCard
-            title="Jalper.com"
+            title="jordanalper.com"
             backgroundColor="black"
             link="https://github.com/jalper1/jalper.com"
             description="Frontend Developer"
