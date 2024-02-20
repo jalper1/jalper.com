@@ -38,7 +38,7 @@ function ProjectPage({ ...props }) {
           />
         </div>
       </div>
-      <Footer />
+      <Footer class="footer" />
     </>
   );
 }
