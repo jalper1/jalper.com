@@ -4,6 +4,7 @@ import "./projectPage.css";
 import photo from "../assets/react.svg";
 import robotPhoto from "../assets/robot.jpg";
 import mansionPhoto from "../assets/mmansion.png";
+import eotwPhoto from "../assets/eotw.png";
 import Footer from "../Footer/Footer";
 
 function ProjectPage({ ...props }) {
@@ -12,6 +13,14 @@ function ProjectPage({ ...props }) {
       <NavBar />
       <div className="project-text">
         <div className="cards">
+          <ProjectCard
+            title="Echoes of the Wilds"
+            backgroundColor="black"
+            link="https://skzhu.itch.io/echoesofthewilds"
+            description="Lead Engineer, helped with design"
+            image={eotwPhoto}
+            {...props}
+          />
           <ProjectCard
             title="Robo Aid Website"
             backgroundColor="black"
