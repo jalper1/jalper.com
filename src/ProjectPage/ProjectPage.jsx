@@ -17,7 +17,7 @@ function ProjectPage({ ...props }) {
             title="Echoes of the Wilds"
             backgroundColor="black"
             link="https://skzhu.itch.io/echoesofthewilds"
-            description="Lead Engineer, helped with design"
+            description="Lead Engineer and designer"
             image={eotwPhoto}
             {...props}
           />
