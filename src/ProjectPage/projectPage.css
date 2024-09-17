@@ -7,8 +7,17 @@
   }
 }
 
-.project-text {
+.project-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  gap: 0.5rem;
   margin-top: 6rem;
+}
+
+.project-text {
   font-size: 3rem;
   text-align: center;
   font-weight: 700;
@@ -29,8 +38,20 @@
   gap: 1rem;
 }
 
+.cards-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+}
+
 @media only screen and (min-width: 600px) {
   .cards {
+    flex-direction: row;
+    gap: 6rem;
+  }
+  .cards-2 {
     flex-direction: row;
     gap: 6rem;
   }
