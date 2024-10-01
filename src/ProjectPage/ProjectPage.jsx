@@ -51,7 +51,7 @@ function ProjectPage({ ...props }) {
           />
 
         </div>
-        <div className="cards-2">
+        <div className="cards">
         <ProjectCard
             title="Echoes of the Wilds GitHub"
             backgroundColor="black"
@@ -74,6 +74,10 @@ function ProjectPage({ ...props }) {
             link="https://jalper1.itch.io/"
             description="Game Designer and Developer"
             image={itchPhoto}
+            {...props}
+          />
+          <ProjectCard
+          disabled={true}
             {...props}
           />
         </div>

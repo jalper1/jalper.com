@@ -7,6 +7,7 @@ function ProjectCard({
   title,
   description,
   image,
+  disabled,
   ...props
 }) {
   return (
@@ -16,13 +17,13 @@ function ProjectCard({
         style={{ backgroundColor: backgroundColor }}
       >
         <div className="card-content">
-          <img
+          {!disabled && <img
             width={100}
             height={100}
             className="card-image"
             src={image}
             alt={`${image}-image`}
-          />
+          />}
           <h1>{title}</h1>
           <p>{description}</p>
         </div>
