@@ -69,7 +69,7 @@ function ProjectPage({ ...props }) {
             {...props}
           />
           <ProjectCard
-            title="Small Games"
+            title="All Games"
             backgroundColor="black"
             link="https://jalper1.itch.io/"
             description="Game Designer and Developer"
