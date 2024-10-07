@@ -46,7 +46,7 @@ function AboutMe() {
             title={<h1>About Me</h1>}
             content={
               <p className="about-me">
-                As a Computer Science major with a Game Design Minor at the
+                As a Computer Science major with a Game Design Minor who recently graduated from the
                 University of Wisconsin-Madison, I am dedicated to exploring the
                 latest technologies and applying them to real-world challenges.
                 Through my coursework and job experience I have developed a
@@ -61,19 +61,20 @@ function AboutMe() {
             title={<h1>Specialties</h1>}
             content={
               <>
+                <h4>Concepts and Ideas</h4>
                 <p className="concepts">
                   Software Development, Game Development, Web Development,
                   Mobile Development, Object Oriented Programming, Data
                   Structures, Algorithms, Agile Methodologies, Version Control,
                   UI/UX Design
                 </p>
+                <h4>Languages and Frameworks</h4>
                 <p className="languages">
-                  React.js, JavaScript, HTML, CSS, Java, C# in Unity, gdscript,
-                  Swift, TypeScript, C, MySQL, Node.js, Express.js
+                  React.js, JavaScript, TypeScript, CSS, HTML, Node.js, Java, Swift, React Native, C, Python, MySQL, C# in Unity, gdscript
                 </p>
+                <h4>Softwares and Programs</h4>
                 <p className="softwares">
-                  Visual Studio Code, Xcode, GitHub, Adobe Photoshop, Godot,
-                  Windows, Linux, GBStudio, p5play, Firebase, IntelliJ IDEA
+                  Unity, Godot, GBStudio, p5play, Windows, Linux, Express API, Firebase, Figma, GitHub, Visual Studio Code, Xcode, IntelliJ IDEA, Jupyter Notebook, Docker, Maya, Rhino, Photoshop, Premiere Pro
                 </p>
               </>
             }
@@ -111,7 +112,7 @@ function AboutMe() {
                 <div className="camp">
                   <h2>Camp Interlaken</h2>
                   <p>
-                    <em>Counselor and Counselor-in-Training</em>
+                    <em>Unit Leader, Counselor and Counselor-in-Training</em>
                   </p>
                   <p>
                     Highly adept at planning, executing, and supervising camp
