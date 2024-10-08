@@ -46,10 +46,10 @@ function AboutMe() {
             title={<h1>About Me</h1>}
             content={
               <p className="about-me">
-                As a Computer Science major with a Game Design Minor who recently graduated from the
-                University of Wisconsin-Madison, I am dedicated to exploring the
+                As a recent graduate from the University of Wisconsin-Madison with a major in 
+                Computer Science and a minor in Game Design, I am dedicated to exploring the
                 latest technologies and applying them to real-world challenges.
-                Through my coursework and job experience I have developed a
+                Through my coursework and job experience, I have developed a
                 strong foundation in programming languages, algorithms, data
                 structures, and computer networks.
               </p>
