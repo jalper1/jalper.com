@@ -86,6 +86,20 @@ function AboutMe() {
             content={
               <>
                 {" "}
+                <div className="skiMate">
+                  <h2>skiMATE</h2>
+                  <p>
+                    <em>Frontend Engineer</em>
+                  </p>
+                  <p>
+                  Led the development of the SkiMATE app in React Native, collaborating with 
+                  senior leadership to define product requirements and align with company goals. 
+                  As part of the founding team, conducted in-depth research to address user 
+                  needs and market demands. Worked closely with UX leads to ensure seamless UI 
+                  implementation and coordinated with back-end developers to meet project 
+                  milestones for an efficient and timely launch.
+                  </p>
+                </div>
                 <div className="toast">
                   <h2>Toast</h2>
                   <p>

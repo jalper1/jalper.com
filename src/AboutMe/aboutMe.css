@@ -128,7 +128,8 @@
 }
 
 .kotini,
-.camp {
+.camp,
+.toast {
   border-top: solid 1px #0c3c6f;
 }
 
